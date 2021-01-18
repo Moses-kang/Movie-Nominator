@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Movie List</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body class="movieListlol">
+        <div class="top-card">
+            <div id="banner"></div>
+            <div class="intro" id="title"><b>Movies List</b></div>
+        </div>
+        <div class="nav-parent">
+            <a href="index.html" class="nav-home">Home</a>
+            <a href="nomList.html" class="nav-noms">My Nominations</a>
+        </div>
+        <div class="wrapper">
+            <div class="moses_kang">
+                Welcome! Please enter a film to nominate
+            </div>
+            <div class="search-input">
+                <input type="text" name="searchBar" id="searchBar" placeholder="Search for a Movie">
+                <div class="auto-box">
+                    <li>temp1</li>
+                    <li>temp2</li>
+                    <li>temp3</li>
+                    <li>temp4</li>
+                </div>
+                <div class="icon"><i class="fas fa fa-search"></i></div>
+            </div>
+            <ul id="movie-result"></ul>
+        </div>
+        <script src="javascript/suggestions.js"></script>
+
+    </body>
+</html>
+<!--
+    notes for moses: 
+    - the api has a search function where if you type in the first couple words 
+    of a filmrealated results will show. example: search avengers and you get all films that 
+    have the title avengers.
+    - create a new file called detailed.html and have it show the detailed stuff about the film 
+    such as leads, plot, and want to add to nominations, and film poster.
+    - for this page, the results will show the film title and year released. 
+-->
+
