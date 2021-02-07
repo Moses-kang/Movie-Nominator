@@ -1,2 +1,2 @@
-# shopify_challenge_summer_2021
-Front-End Developer Position for Shopify
+# Moive Nominator
+Full Stack Web application
